@@ -251,8 +251,10 @@ class GetLoggersClient(WebSocketClient):
                  ser.write('H')
                  ser.write(chr(int(vr_cmd_to_FB_R)))
                  ser.write(chr(int(vl_cmd_to_FB_L)))
-                 #print vr_cmd_to_FB_R
-                 #print vl_cmd_to_FB_L
+                 #print x_cmd_to_FB
+              
+                 #print z_cmd_to_FB_R
+                 #print z_cmd_to_FB_L
               
                
 if __name__=="__main__":
